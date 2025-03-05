@@ -39,6 +39,12 @@
                 <artifactId>aspectj-maven-plugin</artifactId>
                 <version>1.15.0</version>
                 <configuration>
+                    <aspectLibraries>
+                        <aspectLibrary>
+                            <groupId>org.example</groupId>
+                            <artifactId>third-party-aspects</artifactId>
+                        </aspectLibrary>
+                    </aspectLibraries>
                     <complianceLevel>15</complianceLevel>
                     <source>15</source>
                     <target>15</target>
