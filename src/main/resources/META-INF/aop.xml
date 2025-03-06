@@ -1,8 +1,7 @@
 <aspectj>
     <aspects>
-        <aspect name="org.example.aspects.Ohlos"/>
-        <weaver options="-verbose -showWeaveInfo">
-            <include within="org.example.pojo.*"/>
-        </weaver>
+        <aspect name="org.example.aspects.ExtendedAspect"/>
     </aspects>
+    <weaver options="-verbose -showWeaveInfo">
+    </weaver>
 </aspectj>
