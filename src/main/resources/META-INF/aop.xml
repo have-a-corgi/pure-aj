@@ -2,6 +2,4 @@
     <aspects>
         <aspect name="org.example.aspects.ExtendedAspect"/>
     </aspects>
-    <weaver options="-verbose -showWeaveInfo">
-    </weaver>
 </aspectj>
